@@ -2,10 +2,10 @@
 Test projekts kas demonstre Unity UI elementu lietojumu par temu "MR. Bins"
 
 **Daramo darbu saraksts:**
-- [ ] UI Button lietojums
-- [ ] UI Input fields lietojums
-- [ ] UI Text lietojums
-- [ ] UI Image lietojums
+- [x] UI Button lietojums
+- [x] UI Input fields lietojums
+- [x] UI Text lietojums
+- [x] UI Image lietojums
 - [ ] UI radio button lietojums
 - [ ] UI slider lietojums
 - [ ] Drag and drop funkcionalitate
