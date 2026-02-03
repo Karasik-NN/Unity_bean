@@ -16,10 +16,10 @@ public class ChangerScript : MonoBehaviour
 
     public void QuitApplication()
     {
-        if(UnityEditor.EditorApplication.isPlaying)
+        /*if(UnityEditor.EditorApplication.isPlaying)
         {
             UnityEditor.EditorApplication.isPlaying = false;
-        }else
+        }else*/
         Application.Quit();
     }
 }
