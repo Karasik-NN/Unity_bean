@@ -1,14 +1,30 @@
 using UnityEngine;
-using UnityEngine.UI;
 
-public class TvLogic : MonoBehaviour {
-  
-    public AudioSource[] characterSounds;
+public class TvLogic : MonoBehaviour 
+{
+   
+    public void ChangeVolume(float value) 
+    {
+        AudioListener.volume = value;
+
+    }
+    public GameObject channel1; 
+    public GameObject channel2; 
 
     
-    public void ChangeVolume(float volume) {
-        foreach (AudioSource source in characterSounds) {
-            source.volume = volume;
+    public void ChangeChannel(int index) 
+    {
+        if (index == 0) 
+        {
+            channel1.SetActive(true);
+            channel2.SetActive(false);
+            
+        }
+        else if (index == 1) 
+        {
+            channel1.SetActive(false);
+            channel2.SetActive(true);
+           
         }
     }
 }
