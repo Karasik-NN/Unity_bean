@@ -1,6 +1,6 @@
 # Unity
 
-Kaut kas te bus
+
 
 **Darbību saraksts**
 
@@ -15,5 +15,4 @@ Kaut kas te bus
 * \[x] Riggid body un collider lieotjums
 * \[x] Projekta sagatavošana Windows OS
 * \[x] Izveidot galvenās izvēlnes ainu (paši)
-* \[ ] Izveidot TV ainu (Paši)
-* \[ ] Integrēt virtuļu ķeršanas speli
+* \[x] Izveidot TV ainu (Paši)
