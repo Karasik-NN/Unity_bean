@@ -2579,6 +2579,7 @@ GameObject:
   - component: {fileID: 619647899}
   - component: {fileID: 619647898}
   - component: {fileID: 619647897}
+  - component: {fileID: 619647900}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2733,6 +2734,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619647895}
   m_CullTransparentMesh: 1
+--- !u!114 &619647900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619647895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c85dc66b711374ca63dfe41bbe1cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0.5
+  jigglePosition: 1
+  positionJigAmount: {x: 10, y: 10}
+  positionFrequency: 7.4
+  jiggleRotaton: 1
+  rotationJigAmount: {x: 1, y: 0.2, z: 0.3}
+  rotationFrequency: 4
+  jiggleScale: 1
+  scaleJigAmount: {x: 1.1, y: 0.03}
+  scaleFrequency: 6.7
 --- !u!1 &646742706
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,7 +5460,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -300.775, y: 41.165985}
+  m_Offset: {x: -300.77502, y: 59.219738}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5447,7 +5470,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1402.7454, y: 17.41803}
+  m_Size: {x: 1402.7454, y: 53.525536}
   m_EdgeRadius: 0
 --- !u!114 &1277038226
 MonoBehaviour:
@@ -6863,7 +6886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000019073486, y: 737.6254}
+  m_AnchoredPosition: {x: -0.000019073486, y: 737.6255}
   m_SizeDelta: {x: 0, y: 900}
   m_Pivot: {x: 0, y: 1}
 --- !u!23 &1585096919
