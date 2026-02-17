@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 2004326770}
   - component: {fileID: 2004326769}
   - component: {fileID: 2004326768}
-  - component: {fileID: 2004326767}
+  - component: {fileID: 2004326772}
   m_Layer: 0
   m_Name: Bean_0
   m_TagString: Player
@@ -1315,19 +1315,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2004326767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004326766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecd99d19a409c474baed4d75df14555d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
 --- !u!50 &2004326768
 Rigidbody2D:
   serializedVersion: 5
@@ -1471,6 +1458,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004326772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004326766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0f4044373f3e24f965ff6ecf12e549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  xLimit: 8
 --- !u!1 &2108835930
 GameObject:
   m_ObjectHideFlags: 0
