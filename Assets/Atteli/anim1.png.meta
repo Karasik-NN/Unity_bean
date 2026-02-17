@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: ad75cb1969ebd2140ac2d1e4e975a753
+guid: c5aa928a47b6e2443a19283f8ff3f48e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4495422397181781673
-    second: Bean_0
-  - first:
-      213: 2679770912503586980
-    second: Bean_1
-  - first:
-      213: -8186144845388961140
-    second: Bean_2
+      213: 2622753758184894013
+    second: anim1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bean_0
+      name: anim1_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 108
-        width: 957
-        height: 1420
+        x: 23
+        y: 31
+        width: 302
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a6ea5b3ad2f26e30800000000000000
-      internalID: 4495422397181781673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean_1
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 67
-        width: 102
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a063376275703520800000000000000
-      internalID: 2679770912503586980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean_2
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 60
-        width: 96
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8a22ba92a8f46e80800000000000000
-      internalID: -8186144845388961140
+      spriteID: d3e6ee9a5a4e56420800000000000000
+      internalID: 2622753758184894013
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bean_0: 4495422397181781673
-      Bean_1: 2679770912503586980
-      Bean_2: -8186144845388961140
+      anim1_0: 2622753758184894013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
