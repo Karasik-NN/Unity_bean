@@ -3,8 +3,15 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; 
-    private int score = 0;
+    public static ScoreManager instance; 
+
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+    }
+
+    public int score = 0;
+    public TextMeshProUGUI scoreText;
 
     public void AddScore(int amount)
     {
