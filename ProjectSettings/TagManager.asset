@@ -48,5 +48,8 @@ TagManager:
   - name: Fore
     uniqueID: 2658203895
     locked: 0
+  - name: Player
+    uniqueID: 187106237
+    locked: 0
   m_RenderingLayers:
   - Default

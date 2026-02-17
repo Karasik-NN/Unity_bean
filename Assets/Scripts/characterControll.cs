@@ -1,50 +1,25 @@
-using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class characterControll : MonoBehaviour
 {
-    public float moveSpeed = 1f;
-    private Rigidbody2D rb;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    private float moveInput;
+    public float speed = 10f;
+    private float screenWidth;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        // animator=GetComponentChildren<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-
+        
+        screenWidth = Camera.main.orthographicSize * Camera.main.aspect;
     }
-
-
 
     void Update()
     {
-        moveInput = 0;
-        if (Keyboard.current.leftArrowKey.isPressed)
-        {
-            moveInput = -1;
-        }
-        else if (Keyboard.current.rightArrowKey.isPressed)
-        {
-            moveInput = 1;
-        }
+        
+        float moveInput = Input.GetAxis("Horizontal");
+        
+        transform.Translate(Vector2.right * moveInput * speed * Time.deltaTime);
 
-        if (moveInput > 0)
-        {
-            spriteRenderer.flipX = false;
-
-        }
-        else if (moveInput < 0)
-        {
-            spriteRenderer.flipY = false;
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        rb.MovePosition(rb.position = new Vector2(moveInput * moveSpeed * Time.deltaTime, 0));
+        float clampedX = Mathf.Clamp(transform.position.x, -screenWidth, screenWidth);
+        transform.position = new Vector2(clampedX, transform.position.y);
     }
 }
+    
